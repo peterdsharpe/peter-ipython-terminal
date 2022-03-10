@@ -26,11 +26,12 @@ from typing import List, Dict, Tuple, Callable, Union, Any
 import copy
 import os, sys
 from pathlib import Path
+# import sympy as s
 
 console = Console()
 
 
-def wa(debug=False) -> Dict[str, str]:
+def wa(debug=False) -> str:
     """
     Calls WolframAlpha on a string query.
     :param query:
@@ -118,4 +119,3 @@ print(f"Peter's Python Terminal"
       )
 del start
 
-wa(debug=True)

@@ -78,7 +78,7 @@ def wa(debug=False) -> str:
 
     table = Table(show_header=False)
     table.no_wrap = True
-    table.box = box.MINIMAL_HEAVY_HEAD
+    table.box = box.MINIMAL
 
     result = None
 
